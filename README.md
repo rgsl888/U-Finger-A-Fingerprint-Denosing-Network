@@ -1,4 +1,4 @@
-# DeepDenoising
+# U-Finger: Multi-Scale Dilated Convolutional Network for Fingerprint Image Denoising and Inpainting
 
 ## Introduction
 This paper studies the challenging problem of fingerprint
@@ -19,7 +19,6 @@ This code repository is built on top of [DeepLab v2](https://bitbucket.org/aquar
 
 For more details, please refer to our [paper](https://arxiv.org/abs/1706.04284).
 
-### NOTE : But this code has particular changes for ECCV challenge and architectural changes such as dilated convolution network has been introduced compared to original papaer.
 
 ## Converting the colored images to gray
 - `cd Testing`
