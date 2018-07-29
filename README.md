@@ -1,11 +1,19 @@
 # DeepDenoising
 
 ## Introduction
-This repository provides codes that we use to study the mutual influence between image denoising and high-level vision tasks.
-
-(1) We present an finger print denoising network which achieves state-of-the-art image denoising performance. 
-
-(2) We propose a deep network solution that cascades two modules for image denoising and various high-level tasks, respectively, and demonstrate that the proposed architecture not only yields superior image denoising results preserving fine details, but also overcomes the performance degradation of different high-level vision tasks, such as image classification and semantic segmentation, due to image noise.
+This paper studies the challenging problem of fingerprint
+image denoising and inpainting. To tackle the challenge of suppressing
+complicated artifacts (blur, brightness, contrast, elastic transformation,
+occlusion, scratch, resolution, rotation, and so on) while preserving fine
+textures, we develop a multi-scale convolutional network, termed as U-
+Finger. Based on the domain expertise, we show that the usage of dilated
+convolutions as well as the removal of padding have important positive
+impacts on the final restoration performance, in addition to multi-scale
+cascaded feature modules. Our model achieves the overall ranking of
+No.2 in the ECCV 2018 Chalearn LAP Inpainting Competition Track 3
+(Fingerprint Denoising and Inpainting). Among all participating teams,
+we obtain the MSE of 0.0231 (rank 2), PSNR 16.9688 dB (rank 2), and
+SSIM 0.8093 (rank 3), on the hold-out testing set.
 
 This code repository is built on top of [DeepLab v2](https://bitbucket.org/aquariusjay/deeplab-public-ver2).
 
