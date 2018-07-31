@@ -35,7 +35,7 @@ For more details, please refer to our [paper](https://arxiv.org/abs/1807.10993).
 ### Testing
 - `cd Testing`
 - Use the dia_mean.ipynb file to generate images for testing
-- The trained model and its deply file are also located in the same folder
+- The trained model and its deploy files are also located in the same folder
 - Use conv.ipynb to remove the noise on the edges 
 
 ## Citation
