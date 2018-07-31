@@ -17,7 +17,7 @@ SSIM 0.8093 (rank 3), on the hold-out testing set.
 
 This code repository is built on top of [DeepLab v2](https://bitbucket.org/aquariusjay/deeplab-public-ver2).
 
-For more details, please refer to our [paper](https://arxiv.org/abs/1706.04284).
+For more details, please refer to our [paper](https://arxiv.org/abs/1807.10993).
 
 
 ## Converting the colored images to gray
@@ -41,10 +41,10 @@ For more details, please refer to our [paper](https://arxiv.org/abs/1706.04284).
 ## Citation
 Please cite the paper in your publications if it helps your research:
 
-    @inproceedings{liu2017when,
-      author = {Liu, Ding and Wen, Bihan and Liu, Xianming and Huang, Thomas S.},
-      title = {When Image Denoising Meets High-Level Vision Tasks: A Deep Learning Approach},
-      year = {2017},
-      journal={arXiv preprint arXiv:1706.04284}
+    @inproceedings{rgsl888,
+      author = {Ramakrishna Prabhu, Xiaojing Yu, Zhangyang Wang, Ding Liu, Anxiao Jiang},
+      title = {U-Finger: Multi-Scale Dilated Convolutional Network for Fingerprint Image Denoising and Inpainting},
+      year = {2018},
+      journal={arXiv preprint arXiv:1807.10993}
       }
       
